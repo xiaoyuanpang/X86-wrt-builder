@@ -8,35 +8,11 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES adguardhome luci-app-adguardhome luci-i18n-adg
 # argon主题 (argon)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-argon"
 
-# aurora主题 (aurora)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-aurora-config luci-theme-aurora luci-i18n-aurora-config-zh-cn"
-
 # 网络流量监控 (bandix-plus)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES bandix-plus luci-app-bandix-plus luci-i18n-bandix-plus-zh-cn"
 
-# 网络流量监控 (bandix)
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES bandix luci-app-bandix luci-i18n-bandix-zh-cn"
-
-# clashoo代理面板 (clashoo)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES clashoo luci-app-clashoo luci-i18n-clashoo-zh-cn"
-
-# daede代理面板 (daede)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES dae daed luci-app-daede"
-
-# lucky内网穿透 (lucky)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES lucky luci-app-lucky luci-i18n-lucky-zh-cn"
-
 # DNS转发器 (MosDNS)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES mosdns luci-app-mosdns luci-i18n-mosdns-zh-cn"
-
-# 网络设置向导 (netwizard)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard luci-i18n-netwizard-zh-cn"
-
-# nikki代理面板 (nikki)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES nikki luci-app-nikki luci-i18n-nikki-zh-cn"
-
-# openclash代理面板 (openclash)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openclash"
 
 # 分区扩容 (partexp)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp luci-i18n-partexp-zh-cn"
@@ -52,9 +28,6 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES rtp2httpd luci-app-rtp2httpd luci-i18n-rtp2htt
 
 # run插件安装工具 (run)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-run"
-
-# VPN代理 (tailscale)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES tailscale luci-app-tailscale luci-i18n-tailscale-zh-cn"
 
 # 定时任务 (taskplan)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan luci-i18n-taskplan-zh-cn"
