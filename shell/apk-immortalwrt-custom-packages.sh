@@ -33,7 +33,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES ddns-scripts-cloudflare luci-app-ddns luci-i18
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-easymesh luci-i18n-easymesh-zh-cn"
 
 # FCC智能体 (FCC)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-fcc luci-i18n-fcc-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-fcc luci-i18n-fcc-zh-cn"
 
 #LED指示灯控制 (ledcontrol)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ledcontrol luci-i18n-ledcontrol-zh-cn"
@@ -57,14 +57,14 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openclash"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp luci-i18n-partexp-zh-cn"
 
 # passwall代理面板 (passwall)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall luci-i18n-passwall-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES sing-box chinadns-ng geoview shadowsocksr-libev-ssr-local shadowsocksr-libev-ssr-redir"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall luci-i18n-passwall-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES sing-box chinadns-ng geoview shadowsocksr-libev-ssr-local shadowsocksr-libev-ssr-redir"
 
 # poweroff关机 (poweroff)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-poweroff luci-i18n-poweroff-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-poweroff luci-i18n-poweroff-zh-cn"
 
 # rtp2httpd流媒体转发 (rtp2httpd)
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES rtp2httpd luci-app-rtp2httpd luci-i18n-rtp2httpd-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES rtp2httpd luci-app-rtp2httpd luci-i18n-rtp2httpd-zh-cn"
 
 # run插件安装工具 (run)
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-run"
@@ -73,10 +73,10 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-poweroff luci-i18n-poweroff-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-samba4 luci-i18n-samba4-zh-cn"
 
 #smartnetpilot智能网络向导 (smartnetpilot)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-smartnetpilot luci-i18n-smartnetpilot-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-smartnetpilot luci-i18n-smartnetpilot-zh-cn"
 
 # Substore 订阅管理 (substore)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-substore luci-i18n-substore-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-substore luci-i18n-substore-zh-cn"
 
 #watchdog看门狗
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES watchdog luci-app-watchdog luci-i18n-watchdog-zh-cn"
@@ -91,7 +91,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc luci-i18n-turboacc-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tasks luci-i18n-tasks-zh-cn"
 
 # WiFi管理 (Wifimanager)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wifimanager luci-i18n-wifimanager-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wifimanager luci-i18n-wifimanager-zh-cn"
 
 # Wireguard VPN控制面板 (wireguard)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard qrencode"
